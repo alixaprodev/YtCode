@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/design_default_color_primary"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:src="@drawable/question_mark"
+        android:id="@+id/image"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/question"
+        android:text="@string/question1"
+        android:textColor="@color/black"
+        android:padding="8dp"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_true"
+            android:id="@+id/btn_true"
+            android:layout_margin="8dp"
+            android:background="@android:color/holo_green_light"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_false"
+            android:id="@+id/btn_false"
+            android:layout_margin="8dp"
+            android:background="@android:color/holo_red_dark"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="40dip"
+        android:src="@drawable/pr_icon"
+        android:id="@+id/pr_btn"
+        android:scaleType="fitXY"
+        android:layout_marginEnd="8dp"
+        android:background="@android:color/holo_blue_bright"
+        android:contentDescription="Next"
+        android:layout_marginRight="8dp" />
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="40dip"
+            android:src="@drawable/next_icon"
+            android:id="@+id/next_btn"
+            android:scaleType="fitXY"
+            android:background="@android:color/holo_blue_bright"
+            android:contentDescription="Next"
+            />
+    </LinearLayout>
+
+</LinearLayout>

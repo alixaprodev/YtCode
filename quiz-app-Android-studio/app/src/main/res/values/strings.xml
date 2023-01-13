@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="question1">Imran Khan is not president.</string>
+    <string name="question2">Nawaz Sharif is Dead.</string>
+    <string name="question3">Python is Not a Language.</string>
+    <string name="question4">Jawad is MY classFellow.</string>
+    <string name="question5">University will be Open.</string>
+    <string name="question6">Corona is Gone.</string>
+    <string name="correctAnswer">This is correct</string>
+    <string name="wrongAnswer">this is Wrong</string>
+    <string name="text_true">True</string>
+    <string name="text_false">False</string>
+</resources>
